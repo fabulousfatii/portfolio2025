@@ -12,11 +12,11 @@ function Projects() {
       {/* Project Cards Container */}
       <div className="flex flex-col lg:flex-row gap-8 max-w-4xl">
         {/* Project Card 1 */}
-              <Card icon={ShoppingCart} title={"E-commerce website"} description={"A full-stack project "} />
+              <Card icon={ShoppingCart} navigate={"/ecommerce-project"} title={"E-commerce website"} description={"A full-stack project "} />
 
         
         {/* Project Card 2 */}
-         <Card icon={Database} title={"CRM-employee website"} description={"A full-stack project "} />
+         <Card icon={Database} navigate={"/crm-project"} title={"CRM-employee website"} description={"A full-stack project "} />
 
         
         {/* Project Card 3 */}

@@ -1,5 +1,6 @@
 import { Database, File, ShoppingCart } from 'lucide-react'
 import Card from '../components/Card'
+import { NavLink } from 'react-router-dom'
 
 function Projects() {
     return (
@@ -24,7 +25,7 @@ function Projects() {
 
        </div>
 
-        <button className=' md:w-40 bg-cyan-800 mt-16 p-3 drop-shadow-sky-700 ring ring-cyan-600 shadow-cyan-600 '>explore more</button>
+        <NavLink to={"/projects"} className=' md:w-40 bg-cyan-800 hover:bg-cyan-900 mt-16 p-3 rounded-4xl text-center drop-shadow-sky-700 ring ring-cyan-600 hover:shadow-cyan-600 '>explore more</NavLink>
 
       
 <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full absolute top-2/6 -left-36 circle1 rotate-90 blur-[100px]'></div>     

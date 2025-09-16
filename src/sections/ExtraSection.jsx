@@ -70,12 +70,11 @@ export default function FuturisticCardsLayout() {
             
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-4">
-                <Shield className="w-5 h-5 text-purple-400" />
                 {/* <span className="text-sm text-purple-400 font-medium">True Decentralization</span> */}
               </div>
               
-              <h3 className="text-white font-semibold mb-6">
-                {/* WE BUILD TRUST AND SECURITY BY ELIMINATING A SINGLE POINT OF FAILURE */}
+              <h3 className="text-cyan-100 font-mono text-lg font-semibold mb-6 ">
+                Bringing code and creativity together
               </h3>
               
               {/* Network visualization */}

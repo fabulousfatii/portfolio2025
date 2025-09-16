@@ -28,7 +28,7 @@ const ProjectPage = () => {
 
        <Card icon={Book} link={'https://blog-app-lyart-two.vercel.app/'} title={"Blog website"} description={" reactjs project "} />
        {/* <Card icon={MessageCircle} title={"Chat website"} description={" mern-stack project "} /> */}
-       <Card icon={Square} title={"landing page"} description={"frontend project"} />
+       <Card icon={Square} link={"https://www.linkedin.com/feed/update/urn:li:activity:7282793892960178176/"} title={"landing page"} description={"frontend project"} />
 
 
        </div>

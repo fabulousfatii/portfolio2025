@@ -64,10 +64,10 @@ const EcommercePage = () => {
   {/* tools */}
   <h1 className='z-20  mt-15 text-2xl md:text-5xl text-center font-bold '>Tools</h1>
 
-    <div className=' flex gap-6 mt-10 flex-wrap px-32'>
+    <div className='flex gap-2 md:gap-6 mt-10 flex-wrap md:px-32'>
         {tools.map((tool,index)=>{
           return(
-            <span key={index} className=' md:w-40 mt-2 text-center  rounded-full  backdrop-blur-lg border border-white/20 drop-shadow-sky-700 ring ring-cyan-600 shadow-cyan-600 hover:text-cyan-600 '>{tool}</span>
+            <span key={index} className=' md:w-40 mt-2 p-1 text-center  rounded-full  backdrop-blur-lg border border-white/20 drop-shadow-sky-700 ring ring-cyan-600 shadow-cyan-600 hover:text-cyan-600 '>{tool}</span>
           )
 
     })}

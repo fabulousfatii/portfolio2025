@@ -65,7 +65,7 @@ export default function FuturisticCardsLayout() {
           </div>
 
           {/* True Decentralization Card */}
-          <div className="bg-cyan-700/30 rounded-2xl border border-cyan-500 backdrop-blur-xl p-6 relative group hover:border-cyan-400 transition-all duration-500">
+          <div className="bg-cyan-700/30 rounded-2xl border hidden md:block border-cyan-500 backdrop-blur-xl p-6 relative group hover:border-cyan-400 transition-all duration-500">
             <div className="absolute inset-0 bg-gradient-to-br from-cyan-600 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
             <div className="relative z-10">

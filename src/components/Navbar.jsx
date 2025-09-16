@@ -6,7 +6,7 @@ const Navbar = () => {
       <NavLink to={"/"} className="hover:text-blue-300 transition">
         Home
       </NavLink>
-      <NavLink to={"/aboutme"} className="hover:text-blue-300 transition">
+      <NavLink to={"/aboutme"} className="hover:text-blue-300 hidden md:block transition">
         About me
       </NavLink>
       <NavLink to={"/projects"} className={({ isActive }) => "hover:text-blue-300 transition " + (isActive ? "text-blue-400 font-semibold" : "")}>

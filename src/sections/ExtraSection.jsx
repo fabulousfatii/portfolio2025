@@ -42,27 +42,7 @@ export default function FuturisticCardsLayout() {
           </div>
 
           {/* Perpetual Low Gas Fees Card */}
-          <div className="bg-gray-900/50 rounded-2xl border border-gray-700/50 backdrop-blur-xl p-6 relative group hover:border-gray-600/50 transition-all duration-500">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-600/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
-            <div className="relative z-10">
-              
-              <div className="flex items-center gap-3 mb-4">
-                <Grip className="w-5 h-5 text-gray-400" />
-                <span className="text-sm text-gray-400 font-medium">Services</span>
-              </div>
-              
-             <ul className=" text-gray-300 font-semibold px-4 text-pretty ">
-            <li className="hover:text-white list-disc">Mern stack development</li>
-            <li className="hover:text-white list-disc">Backend development</li>
-            <li className="hover:text-white list-disc">Frontend development</li>
-            <li className="hover:text-white list-disc">Full stack development</li>
-            <li className="hover:text-white list-disc">React JS development</li>
-          </ul>
-              
-              
-            </div>
-          </div>
+          
 
           {/* True Decentralization Card */}
           <div className="bg-cyan-700/30 rounded-2xl border hidden md:block border-cyan-500 backdrop-blur-xl p-6 relative group hover:border-cyan-400 transition-all duration-500">
@@ -89,29 +69,7 @@ export default function FuturisticCardsLayout() {
           </div>
 
           {/* Streamlined Atomic Processing Card */}
-          <div className="bg-gray-900/50 rounded-2xl border border-gray-700/50 backdrop-blur-xl p-6 relative group hover:border-gray-600/50 transition-all duration-500">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-600/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
-            <div className="relative z-10">
-              <div className="flex items-center gap-3 mb-4">
-                <Atom className="w-5 h-5 text-gray-400" />
-                <span className="text-sm text-gray-400 font-medium">Education</span>
-              </div>
-              
-              <h3 className="text-white font-semibold ">Bachelor of Science in Computer Science  </h3>
-              <h3 className=" text-gray-300 mb-6 ">  Virtual University of Pakistan <br/> lahore, Pakistan</h3>
-
-              
-              {/* Atomic visualization */}
-              <div className="flex justify-center items-center h-16">
-                <div className="relative">
-                  <div className="w-12 h-12 border-2 border-blue-400/50 rounded-full animate-spin"></div>
-                  <div className="absolute inset-0 w-12 h-12 border-2 border-purple-400/50 rounded-full animate-spin" style={{animationDirection: 'reverse', animationDuration: '3s'}}></div>
-                  <div className="absolute inset-3 w-6 h-6 bg-gradient-to-br from-blue-400 to-purple-400 rounded-full"></div>
-                </div>
-              </div>
-            </div>
-          </div>
+   
 
           {/* Solid Security Card */}
           <div className="bg-gray-900/50 rounded-2xl border border-gray-700/50 backdrop-blur-xl p-6 relative group hover:border-gray-600/50 transition-all duration-500">

@@ -6,15 +6,15 @@ const ProjectPage = () => {
   return (
      <div className=" overflow-x-hidden relative flex flex-col items-center justify-center p-8">
       {/* Title */}
-      <h1 className="text-5xl font-bold text-white mt-16 mb-5">
+      <h1 className="text-5xl 2xl:text-6xl font-bold text-white mt-16 mb-5">
         All Projects
       </h1>
-      <h1 className="text-xl text-cyan-600 mb-16">
+      <h1 className="text-xl 2xl:text-2xl text-cyan-600 mb-16">
         Click to see project Details
       </h1>
       
       {/* Project Cards Container */}
-      <div className="flex flex-col flex-wrap  justify-center lg:flex-row gap-8 max-w-4xl">
+      <div className="flex flex-col flex-wrap  justify-center lg:flex-row gap-8 2xl:gap-12 max-w-4xl 2xl:w-7xl">
         {/* Project Card 1 */}
               <Card icon={ShoppingCart} navigate={"/ecommerce-project"} title={"E-commerce website"} description={"A full-stack project "} />
 
@@ -33,8 +33,8 @@ const ProjectPage = () => {
 
        </div>
       
-<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full fixed top-2/6 -left-36 circle1 rotate-90 blur-[100px]'></div>     
-      <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full fixed top-2/6 z-10 -right-36 rotate-180 circle2 blur-[100px]'></div>
+<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 rounded-full fixed top-2/6 -left-36 circle1 rotate-90 blur-[100px]'></div>
+      <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 rounded-full fixed top-2/6 z-10 -right-36 rotate-180 circle2 blur-[100px]'></div>
     </div>
   )
 }

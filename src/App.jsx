@@ -7,6 +7,7 @@ import FuturisticCardsLayout from './sections/ExtraSection'
 import { MessageCircleIcon } from 'lucide-react'
 import ContactSection from './sections/ContactSection'
 import Navbar from './components/Navbar'
+import Aboutme2 from './pages/Aboutme2'
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
     <HeroSection/>
 
    
-      <FuturisticCardsLayout/>
+      {/* <FuturisticCardsLayout/> */}
+      <Aboutme2/>
 
     <Skills/>
 

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="absolute z-10 top-4 left-1/2 transform -translate-x-1/2 bg-white/5  backdrop-blur-lg border border-white/20 rounded-full shadow-lg px-8 py-1.5 flex space-x-10 text-white font-medium">
+    <nav className="absolute z-10 2xl:text-xl top-4 left-1/2 transform -translate-x-1/2 bg-white/5  backdrop-blur-lg border border-white/20 rounded-full shadow-lg px-8 py-1.5 flex space-x-10 text-white font-medium">
       <NavLink to={"/"} className="hover:text-blue-300 transition">
         Home
       </NavLink>

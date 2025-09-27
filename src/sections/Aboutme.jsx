@@ -3,7 +3,7 @@ import React from 'react'
 function Aboutme() {
     return (
           <div className='h-screen  relative flex p-4 justify-center items-center'>
-      <div className=' min-h-[80vh] mt-15 relative p-10 px-15 rounded-3xl bg-gray-900/30 backdrop-filter backdrop-blur-md bg-opacity-40 shadow-2xl ring ring-cyan-600 shadow-cyan-600 '>
+      <div className=' min-h-[80vh] mt-15 relative p-10 px-15 rounded-3xl bg-gray-900/30 backdrop-filter backdrop-blur-md bg-opacity-40 0 shadow-cyan-600 '>
               {/* <div className='w-[80vw] h-[80vh] absolute -z-10  bg-[url(assets/download.jpg)] bg-cover blur-sm overflow-x-hidden overflow-hidden rounded-3xl'></div> */}
  {/* About Me Heading */}
       <h1 className="text-4xl   font-bold mb-4">About me</h1>

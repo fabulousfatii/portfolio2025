@@ -10,6 +10,7 @@ import Navbar from './components/Navbar.jsx'
 import Aboutme from './sections/Aboutme.jsx'
 import ContactSection from './sections/ContactSection.jsx'
 import PDFsummaryProject from './pages/PDFsummaryProject.jsx'
+import Aboutme2 from './pages/Aboutme2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +28,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/crm-project" element={<CRMproject />} />
         <Route path="/ecommerce-project" element={<EcommercePage />} />
         <Route path="/pdf-project" element={<PDFsummaryProject />} />
+        <Route path="/about" element={<Aboutme2 />} />
+
 
       </Routes>
     </BrowserRouter>

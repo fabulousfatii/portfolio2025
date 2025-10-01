@@ -39,16 +39,16 @@ background: linear-gradient(150deg, rgb(14, 127, 184) 43%, rgba(242, 242, 136, 1
 
 
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  /* background-color: #1a1a1a; */
+  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
+} */
 
 .card{
     position: relative;

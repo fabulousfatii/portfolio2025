@@ -9,7 +9,7 @@ const ProjectPage = () => {
       <h1 className="text-5xl 2xl:text-6xl font-bold text-white mt-16 mb-5">
         All Projects
       </h1>
-      <h1 className="text-xl 2xl:text-2xl text-cyan-600 mb-16">
+      <h1 className="text-xl 2xl:text-2xl font-extralight text-gray-400 mb-16">
         Click to see project Details
       </h1>
       
@@ -28,13 +28,13 @@ const ProjectPage = () => {
 
        <Card icon={Book} link={'https://blog-app-lyart-two.vercel.app/'} title={"Blog website"} description={" reactjs project "} />
        {/* <Card icon={MessageCircle} title={"Chat website"} description={" mern-stack project "} /> */}
-       <Card icon={Square} link={"https://www.linkedin.com/feed/update/urn:li:activity:7282793892960178176/"} title={"landing page"} description={"frontend project"} />
+       <Card icon={Square} link={""} title={"landing page"} description={"frontend project"} />
 
 
        </div>
       
-<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 rounded-full fixed top-2/6 -left-36 circle1 rotate-90 blur-[100px]'></div>
-      <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 rounded-full fixed top-2/6 z-10 -right-36 rotate-180 circle2 blur-[100px]'></div>
+<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 rounded-full fixed top-2/6 -left-36 bg-blue-800 rotate-90 blur-[100px]'></div>
+      <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 rounded-full fixed top-2/6 z-10 -right-36 rotate-180 bg-blue-800 blur-[100px]'></div>
     </div>
   )
 }

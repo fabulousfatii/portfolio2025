@@ -22,7 +22,7 @@ function Aboutme() {
         {/* Education */}
         <div>
           <h2 className="text-2xl font-bold mb-4">Education</h2>
-          <div className="bg-cyan-900 text-white px-4 py-3 rounded-lg shadow-md">
+          <div className="bg-gradient-to-r from-blue-900/50 to-blue-950/20 text-white px-4 py-3 rounded-lg shadow-md">
             <p className="font-semibold">BSCS</p>
             <p className="text-sm">Virtual University of Pakistan</p>
           </div>
@@ -54,7 +54,7 @@ function Aboutme() {
       {/* Additional Experience Block */}
       <div className="mt-8">
         <h2 className="text-2xl font-bold mb-4">Experience</h2>
-        <div className="bg-cyan-900 text-white px-4 py-3 rounded-lg shadow-md">
+        <div className="bg-gradient-to-r from-blue-900/50 to-blue-950/20 text-white px-4 py-3 rounded-lg shadow-md">
           <p className="font-semibold">Mern stack internship</p>
           <p className="text-sm">Nextsolution</p>
         </div>

@@ -25,11 +25,11 @@ function Projects() {
 
        </div>
 
-        <NavLink to={"/projects"} className=' md:w-40 bg-cyan-800 hover:bg-cyan-900 mt-16 p-3 rounded-4xl text-center drop-shadow-sky-700 ring ring-cyan-600 hover:shadow-cyan-600 '>explore more</NavLink>
+        <NavLink to={"/projects"} className=' md:w-40  bg-gradient-to-r from-blue-900/50 to-blue-950/20 hover:bg-cyan-900 mt-16 p-3 rounded-4xl text-center drop-shadow-sky-700 ring ring-gray-600 hover:shadow-cyan-600 '>explore more</NavLink>
 
       
-<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full absolute top-2/6 -left-36 circle1 rotate-90 blur-[100px]'></div>     
-      <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full absolute top-2/6 z-10 -right-36 rotate-180 circle2 blur-[100px]'></div>
+<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full absolute top-2/6 -left-36 bg-blue-800 rotate-90 blur-[100px]'></div>     
+      <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-80 lg:h-80 rounded-full absolute top-2/6 z-10 -right-36 rotate-180 bg-blue-800 blur-[100px]'></div>
     </div>
     )
 }

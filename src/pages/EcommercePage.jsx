@@ -28,8 +28,8 @@ const EcommercePage = () => {
             
             <div className=' h-screen overflow-x-hidden relative flex flex-col p-20 justify-start items-center'> 
     
-<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-96 lg:h-96 rounded-full absolute -top-0 right-2/3 circle1 blur-[130px]'></div>      
-<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-[500px] lg:h-96 rounded-lg absolute top-0 right-0 circle2 blur-[130px]'></div>  
+<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-[190px] lg:h-96 2xl:w-[900px] 2xl:h-[900px] 2xl:-top-10 rounded-full absolute -top-32 right-2/3  bg-blue-900 blur-[130px] 2xl:blur-[270px]'></div>
+<div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-[500px] lg:h-96 2xl:w-[900px] 2xl:h-[700px] 2xl:-top-5 rounded-lg absolute -top-18 right-0 bg-blue-900 blur-[130px] 2xl:blur-[270px]'></div>
 
 <div className="w-12 h-12 bg-gradient-to-br from-sky-500/20 to-sky-400/10 mt-32 rounded-full flex items-center justify-center border border-sky-500/30">
                       <Database className="w-6 h-6 text-sky-400" />

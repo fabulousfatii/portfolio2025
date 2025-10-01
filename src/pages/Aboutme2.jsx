@@ -5,18 +5,18 @@ const Aboutme2 = () => {
   return (
     <div className='  relative pb-32 ' >
         <div className='sticky lg:pl-32 xl:pl-64 2xl:pl-[22%] hidden lg:block top-64 mt-14  left-54'>
-            <h1 className='text-6xl 2xl:text-7xl text-cyan-500 font-bold'>Get to know </h1>
-            <h1 className='text-6xl 2xl:text-7xl text-gray-100 font-bold' >about me </h1>
+            <h1 className='text-6xl 2xl:text-7xl text-blue-800 font-bold'>Get to know </h1>
+            <h1 className='text-6xl 2xl:text-7xl text-gray-200 font-bold' >about me </h1>
             {/* <MoveRightIcon/> */}
         </div>
   
-<div className='sticky hidden md:block  circle2 w-32 h-32 2xl:w-52 2xl:h-52   ml-[40%] left-64 top-1/2 rounded-full blur-[100px]'></div>
+<div className='sticky hidden md:block  bg-blue-800 w-32 h-32 2xl:w-52 2xl:h-52   ml-[40%] left-64 top-1/2 rounded-full blur-[100px]'></div>
 
 
 
             {/* paragraph */}
         <div className=' h-full relative  flex flex-col justify-center lg:justify-start gap-5 items-end p-15 lg:pr-48 2xl:pr-[26%]'>
-                  <div className='absolute circle1 top-0 left-0 w-40 h-40 rounded-full blur-[90px]'></div>
+                  <div className='absolute bg-blue-800 top-0 left-0 w-40 h-40 rounded-full blur-[90px]'></div>
 
                   
 
@@ -25,10 +25,10 @@ const Aboutme2 = () => {
             
             <div className=" z-10">
 
-              <p className='text-lg 2xl:text-2xl text-center font-semibold'>
-                I strive to create innovative solutions that combine aesthetics with functionality. My <span className='text-cyan-500'>passion</span> for 
+              <p className='text-sm md:text-lg 2xl:text-2xl text-center font-semibold'>
+                I strive to create innovative solutions that combine aesthetics with functionality. My <span className='text-blue-500'>passion</span> for 
                 coding and problem-solving drives me to continuously improve and stay up-to-date with the latest trends in web development.
-                 I believe in the <span className='text-cyan-500'>power of collaboration</span> and 
+                 I believe in the <span className='text-blue-500'>power of collaboration</span> and 
                 I am always eager to work with like-minded individuals to create exceptional digital experiences.
               </p>
 
@@ -54,7 +54,7 @@ const Aboutme2 = () => {
             
             <div className="relative z-10 ">
 
-              <h3 className=" text-cyan-600 font-bold 2xl:text-2xl"> Mern stack internship</h3>
+              <h3 className=" text-blue-600 font-bold 2xl:text-2xl"> Mern stack internship</h3>
               <h3 className=" text-gray-300 2xl:text-xl ">NerdxSolution ,remote </h3>
               <h3 className=" text-gray-300 font-semibold mb-6 2xl:text-xl"> 3 months</h3>
 
@@ -75,7 +75,7 @@ const Aboutme2 = () => {
             
             <div className="relative z-10">
               
-              <h3 className="text-cyan-600 text-wrap  font-bold 2xl:text-2xl">Bachelor of Science in Computer Science  </h3>
+              <h3 className="text-blue-600 text-wrap  font-bold 2xl:text-2xl">Bachelor of Science in Computer Science  </h3>
               <h3 className=" text-gray-300 mb-6 2xl:text-xl">  Virtual University of Pakistan <br/> lahore, Pakistan</h3>
 
              
@@ -91,11 +91,11 @@ const Aboutme2 = () => {
             <h1 className='text-2xl 2xl:text-3xl text-center font-bold'>Services</h1>
 
             </div>
-<div className="bg-gray-900/20 md:w-1/3 sm:w-1/2 rounded-2xl border  border-gray-700/70 backdrop-blur-xl p-6 relative group hover:border-gray-600/50 transition-all duration-500">
+<div className="bg-gray-900/20 md:w-1/3 mx-7 md:mx-0 sm:w-1/2 rounded-2xl border  border-gray-700/70 backdrop-blur-xl p-6 relative group hover:border-gray-600/50 transition-all duration-500">
             
             <div className="relative z-10"> 
               
-             <ul className=" text-gray-300 text-lg 2xl:text-xl px-4 text-pretty ">
+             <ul className=" text-gray-300 text-md md:text-lg 2xl:text-xl px-4  ">
             <li className="hover:text-white list-disc">Mern stack development</li>
             <li className="hover:text-white list-disc">Backend development</li>
             <li className="hover:text-white list-disc">Frontend development</li>

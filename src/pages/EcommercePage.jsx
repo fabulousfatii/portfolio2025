@@ -46,8 +46,8 @@ const EcommercePage = () => {
  </div>
  
   <p className='z-20 text-md mt-15 md:text-lg  text-center  text-shadow-lg text-shadow-gray-00'>
-    A MERN stack CRM project that focuses on employee management. Allowing both admin and managers to manage their employees efficiently.
-     Employee panel for employees to keep updated all the time with their progress.</p>
+    A MERN stack E-commerce project that focuses on state management, order products , manage products , 
+    providing user authentication and stripe integration functionality</p>
 
 {/* features */}
   <h1 className='z-20  mt-15 text-2xl md:text-5xl text-center font-bold '>Features</h1>

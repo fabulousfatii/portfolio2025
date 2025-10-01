@@ -1,9 +1,8 @@
-import { MoveRightIcon } from 'lucide-react'
-import React from 'react'
+
 
 const Aboutme2 = () => {
   return (
-    <div className='  relative pb-32 ' >
+    <div id="section2" className='  relative pb-32 ' >
         <div className='sticky lg:pl-32 xl:pl-64 2xl:pl-[22%] hidden lg:block top-64 mt-14  left-54'>
             <h1 className='text-6xl 2xl:text-7xl text-blue-800 font-bold'>Get to know </h1>
             <h1 className='text-6xl 2xl:text-7xl text-gray-200 font-bold' >about me </h1>

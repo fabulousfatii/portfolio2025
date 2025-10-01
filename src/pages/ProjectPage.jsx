@@ -26,7 +26,7 @@ const ProjectPage = () => {
         {/* Project Card 3 */}
        <Card icon={File} navigate={"/pdf-project"} title={"PDF Summary website"} description={"A full-stack project "} />
 
-       <Card icon={Book} link={'https://blog-app-lyart-two.vercel.app/'} title={"Blog website"} description={" reactjs project "} />
+       <Card icon={Book} link={''} title={"Blog website"} description={" reactjs project "} />
        {/* <Card icon={MessageCircle} title={"Chat website"} description={" mern-stack project "} /> */}
        <Card icon={Square} link={""} title={"landing page"} description={"frontend project"} />
 

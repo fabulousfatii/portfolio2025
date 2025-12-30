@@ -1,13 +1,10 @@
 import { useState } from 'react'
 import HeroSection from './sections/HeroSection'
-import Aboutme from './sections/Aboutme'
-import Skills from './sections/Skills'
 import Projects from './sections/Projects'
-import FuturisticCardsLayout from './sections/ExtraSection'
-import { MessageCircleIcon } from 'lucide-react'
 import ContactSection from './sections/ContactSection'
-import Navbar from './components/Navbar'
 import Aboutme2 from './pages/Aboutme2'
+import ServicesSection2 from './sections/ServicesSection2'
+import SkillsSection from './sections/SkillsSection'
 
 
 function App() {
@@ -22,7 +19,10 @@ function App() {
       {/* <FuturisticCardsLayout/> */}
       <Aboutme2/>
 
-    <Skills/>
+      <ServicesSection2/>
+
+    <SkillsSection/>
+    
 
     <Projects/>
 

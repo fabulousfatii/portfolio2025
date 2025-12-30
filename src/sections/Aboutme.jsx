@@ -9,7 +9,7 @@ function Aboutme() {
       <h1 className="text-4xl   font-bold mb-4">About me</h1>
 
       {/* Description */}
-      <p className="italic text-gray-300 max-w-3xl mb-12">
+      <p className=" font-bold text-gray-300 max-w-3xl mb-12">
         
                   strive to create innovative solutions that combine aesthetics with functionality. My passion for coding and
                   problem-solving drives me to continuously improve and stay up-to-date with the latest trends in web development. 

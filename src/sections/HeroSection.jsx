@@ -63,7 +63,7 @@ function HeroSection() {
  <div ref={textRef}><h1  className='z-20   text-4xl md:text-7xl 2xl:text-8xl text-blue-500 md:text-white text-center text-shadow-xs md:text-shadow-gray-100 font-bold '>Full Stack Developer</h1></div>
   <h1 ref={text3Ref} className='z-20 text-sm md:text-md 2xl:text-md mt-3 2xl:mt-10 text-gray-300  text-center  text-shadow-lg leading-5 text-shadow-gray-00'>
     Building modern web apps with clean UI, solid architecture,<br /> and real-world performance in mind.</h1>
-  <div ref={navRef} className="flex gap-5 ">
+  <div ref={navRef} className="flex gap-5 mt-1 ">
   <a  href='#section2' className=' hidden md:block text-center mt-4 2xl:mt-3 p-1 px-3  bg-gradient-to-r from-blue-900/20 to-blue-950/20  rounded-full backdrop-blur-lg
    border border-white/20 drop-shadow-sky-700 text-gray-300 transition-all
    shadow-blue-800 shadow-sm cursor-pointer hover:scale-105 hover:text-blue-300 '>explore more🔎</a >

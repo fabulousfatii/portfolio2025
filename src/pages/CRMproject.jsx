@@ -44,7 +44,7 @@ const CRMproject = () => {
  </div>
 
   <p className='z-20 text-md mt-5 md:text-lg p-10 text-center  text-shadow-lg text-shadow-gray-00'>
-    A MERN stack CRM project that focuses on employee management. Allowing both admin and managers to manage their employees efficiently.
+    A CRM project that focuses on employee management. Allowing both admin and managers to manage their employees efficiently.
      Employee panel for employees to keep updated all the time with their progress.</p>
     
   <h1 className='z-20  mt-10 text-2xl md:text-5xl text-center font-bold '>Features</h1>

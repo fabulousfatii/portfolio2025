@@ -25,7 +25,7 @@ function Projects() {
 
        </div>
 
-        <NavLink to={"/projects"} className=' md:w-40  bg-gradient-to-r from-blue-900/50 to-blue-950/20 hover:bg-cyan-900 mt-16 p-3 rounded-4xl text-center drop-shadow-sky-700 ring ring-gray-600 hover:shadow-cyan-600 '>explore more</NavLink>
+        <NavLink to={"/projects"} className=' md:w-40  bg-gradient-to-r from-blue-900/50 to-gray-950/50 bg-opacity-10 mt-16 p-3 rounded-4xl text-center drop-shadow-sky-700 ring transition-all ring-gray-600 hover:scale-105'>explore more</NavLink>
 
       
 <div className='w-40 h-40 sm:w-50 sm:h-50 md:w-55 md:h-55 lg:w-92 lg:h-72 rounded-full absolute top-2/6 left-68 -z-10 bg-blue-800 opacity-60 rotate-90 blur-[100px]'></div>     

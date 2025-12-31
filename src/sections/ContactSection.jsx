@@ -4,7 +4,7 @@ import { GitBranch, GitBranchPlusIcon, GitCommit, GitGraph, Mail, MailIcon } fro
 const ContactSection = () => {
   return (
 
- <section className="py-16 px-4 md:px-0 background-3 relative flex  justify-center items-center">
+ <section id="contact" className="py-16 px-4 md:px-0 background-3 relative flex  justify-center items-center">
       <div className='absolute left-1/4 w-1/4 h-1/2 bg-blue-950/70 rounded-full blur-[100px] z-0 '>
         </div>
 

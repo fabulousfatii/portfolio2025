@@ -67,10 +67,10 @@ function HeroSection() {
   <a  href='#section2' className=' hidden md:block text-center mt-4 2xl:mt-3 p-1 px-3  bg-gradient-to-r from-blue-900/20 to-blue-950/20  rounded-full backdrop-blur-lg
    border border-white/20 drop-shadow-sky-700 text-gray-300 transition-all
    shadow-blue-800 shadow-sm cursor-pointer hover:scale-105 hover:text-blue-300 '>explore more🔎</a >
-  <a  className=' hidden md:block text-center mt-4 2xl:mt-3 p-1 px-3  bg-gradient-to-r from-blue-900/20 to-blue-950/20  rounded-full backdrop-blur-lg
+  <a  href="#contact" className=' hidden md:block text-center mt-4 2xl:mt-3 p-1 px-3  bg-gradient-to-r from-blue-900/20 to-blue-950/20  rounded-full backdrop-blur-lg
    border border-white/20 drop-shadow-sky-700 text-gray-300 transition-all
    shadow-blue-800 shadow-sm cursor-pointer hover:scale-105 hover:text-blue-300 '>open for internship roles💻</a >
-  <a  className='  md:block text-center mt-4 2xl:mt-3 p-1 px-3  bg-gradient-to-r from-blue-900/20 to-blue-950/20  rounded-full backdrop-blur-lg
+  <a href="#contact" className='  md:block text-center mt-4 2xl:mt-3 p-1 px-3  bg-gradient-to-r from-blue-900/20 to-blue-950/20  rounded-full backdrop-blur-lg
    border border-white/20 drop-shadow-sky-700 text-gray-300 
    shadow-blue-800 shadow-sm cursor-pointer hover:scale-105 transition-all hover:text-blue-300 '>lets build together✨</a >
 

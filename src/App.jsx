@@ -5,6 +5,7 @@ import ContactSection from './sections/ContactSection'
 import Aboutme2 from './pages/Aboutme2'
 import ServicesSection2 from './sections/ServicesSection2'
 import SkillsSection from './sections/SkillsSection'
+import HeroSectionn from './sections/HeroSectionn'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   return (
    <main className='text-2x p-0 '>
 
-    <HeroSection/>
+    <HeroSectionn/>
 
    
       {/* <FuturisticCardsLayout/> */}

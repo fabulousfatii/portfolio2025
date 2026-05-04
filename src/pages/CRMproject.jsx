@@ -37,9 +37,8 @@ const CRMproject = () => {
 
      {/* link */}
  <div className=' mt-5'>
-  <h2 className='text-center'>github:  </h2>
   <a className='ml-2 rounded-full text-cyan-200 bg-white/10  backdrop-blur-lg border border-white/20 drop-shadow-sky-700 ring ring-cyan-800 shadow-cyan-600 hover:text-cyan-600'
-     href="https://github.com/fabulousfatii/CRM-employee"> https://github.com/fabulousfatii/CRM-employee</a>
+     href="https://crm-client-delta.vercel.app/"> https://crm-client-delta.vercel.app/</a>
 
  </div>
 

@@ -39,9 +39,8 @@ const EcommercePage = () => {
 
   {/* link */}
  <div className=' mt-5'>
-  <h2 className='text-center'>github:  </h2>
   <a className='ml-2 rounded-full text-cyan-200 bg-white/10  backdrop-blur-lg border border-white/20 drop-shadow-sky-700 ring ring-cyan-800 shadow-cyan-600 hover:text-cyan-600'
-     href="https://github.com/fabulousfatii/e-comerce-app"> https://github.com/fabulousfatii/CRM-employee</a>
+     href="https://chatapp-client-zeta.vercel.app/"> https://chatapp-client-zeta.vercel.app/</a>
 
  </div>
  
@@ -75,8 +74,7 @@ const EcommercePage = () => {
 
     <div className='w-full mt-18 flex flex-wrap gap-4  '>
     </div>
-          <img className='w-4xl mb-2' src="/assets/ecommerce1.png" alt="" srcset="" />
-          <img className='w-4xl' src="/assets/ecommerce2.png" alt="" srcset="" />
+          <img className='w-4xl mb-2' src="src/assets/chat.png" alt="" srcset="" />
     </div>
         </div>  )
 }

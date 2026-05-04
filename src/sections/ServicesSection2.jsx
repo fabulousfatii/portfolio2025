@@ -11,7 +11,7 @@ const ServicesSection2 = () => {
     { name: "API Integration", active: false },
   ];
   return (
-<section className="py-20 px-6">
+<section className="pb-5 pt-10 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="section-card border  border-gray-700/50 bg-gray-900/30 backdrop-blur-md p-8 rounded-2xl ">
           <h2 className="text-xl md:text-2xl text-gray-300 font-semibold mb-5 ml-2">

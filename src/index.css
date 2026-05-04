@@ -57,7 +57,6 @@ background: linear-gradient(150deg, rgb(14, 127, 184) 43%, rgba(242, 242, 136, 1
 
 .card{
     position: relative;
-    background:#000000;
     margin: 0px ;
     
     /* border-radius: 10px; */

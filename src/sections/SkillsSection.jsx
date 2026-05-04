@@ -19,7 +19,7 @@ const SkillsSection = () => {
 
   ];
   return (
-<section className="py-10 px-3 md:px-6">
+<section className="pt-5 pb-10 px-3 md:px-6">
       <div className="max-w-4xl mx-auto">
         <div className="section-card   p-8 rounded-2xl ">
           <h2 className="text-3xl md:text-3xl text-gray-300 font-semibold mb-5 ml-2">

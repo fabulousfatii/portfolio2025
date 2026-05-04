@@ -2,6 +2,8 @@ import { Database, File, ShoppingCart } from 'lucide-react'
 import Card from '../components/Card'
 import { NavLink } from 'react-router-dom'
 
+
+
 function Projects() {
     return (
        <div className=" overflow-x-hidden relative flex flex-col items-center justify-center p-8">
@@ -13,15 +15,15 @@ function Projects() {
       {/* Project Cards Container */}
       <div className="flex flex-wrap justify-center gap-8 max-w-4xl">
         {/* Project Card 1 */}
-              <Card icon={ShoppingCart} image={"https://i.pinimg.com/1200x/bf/cd/e2/bfcde2ae3e620d4b9239036237471ae9.jpg"} navigate={"/ecommerce-project"} title={"E-commerce website"} description={"A full-stack project "} />
+              <Card icon={ShoppingCart} image={"src/assets/chat.png"} navigate={"/ecommerce-project"} title={"chat website"} description={"A full-stack project "} />
 
         
         {/* Project Card 2 */}
-         <Card icon={Database} image={"https://i.pinimg.com/1200x/a2/06/23/a20623a5fb2ce31f1eb04c1162f55111.jpg"} navigate={"/crm-project"} title={"CRM-employee website"} description={"A full-stack project "} />
+         <Card icon={Database} image={"src/assets/crm.png"} navigate={"/crm-project"} title={"Employee managment website"} description={"A full-stack project "} />
 
         
         {/* Project Card 3 */}
-       <Card icon={File} image={"https://i.pinimg.com/736x/e3/59/9d/e3599da03db49d05e2e6cd0e440669b4.jpg"} navigate={"/pdf-project"} title={"PDF Summary website"} description={"A full-stack project "} />
+       <Card icon={File} image={"src/assets/pdf-summary.png"} navigate={"/pdf-project"} title={"PDF Summary website"} description={"A full-stack project "} />
 
        </div>
 

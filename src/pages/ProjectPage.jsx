@@ -7,13 +7,22 @@ const projects = [
   {
     title: "CRM-employee website",
     description: "A CRM project that focuses on employee management. Allowing both admin and managers to manage their employees efficiently. Employee panel for employees to keep updated all the time with their progress",
-    image:"https://i.pinimg.com/1200x/bf/cd/e2/bfcde2ae3e620d4b9239036237471ae9.jpg",
+    image:"src/assets/crm.png",
+    link:"https://crm-client-delta.vercel.app/"
   },
   {
-    title: "E-commerce website",
-    description:  " A MERN stack E-commerce project that focuses on state management, order products , manage products ,   providing user authentication and stripe integration functionality",
-    image:"https://i.pinimg.com/1200x/a2/06/23/a20623a5fb2ce31f1eb04c1162f55111.jpg",
+    title: "Chat website",
+    description:  " A MERN stack chat project that focuses on real-time messaging, user authentication, and a sleek UI",
+    image:"src/assets/chat.png",
+    link:"https://chatapp-client-zeta.vercel.app/"
   },
+  {
+    title: "PDF-summary website",
+    description:  " A nextjs project that focuses on summarizing PDF files using langchain and openai API, allowing users to upload their PDF files and get a concise summary of the content.",
+    image:"src/assets/pdf-summary.png",
+    link:"https://pdf-summary-inky.vercel.app/"
+  },
+
 ];
 
 const ProjectPage = () => {
@@ -48,9 +57,14 @@ const ProjectPage = () => {
                 <p className="text-gray-400 mb-6">
                   {project.description}
                 </p>
-                <button className="px-5 py-2 rounded-full border border-gray-600 hover:bg-white hover:text-black transition">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2 rounded-full border border-gray-600 hover:bg-white hover:text-black transition"
+                >
                   Full project →
-                </button>
+                </a>
               </div>
 
               {/* Image */}

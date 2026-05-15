@@ -4,7 +4,7 @@ const Aboutme2 = () => {
   return (
     <>
     <div id="section2" className='  relative pb-32 ' >
-        <div className='sticky lg:pl-32 xl:pl-64 2xl:pl-[22%] hidden lg:block top-64 mt-24  left-54'>
+        <div className='sticky lg:pl-32 xl:pl-86 2xl:pl-[15%] hidden lg:block top-64 mt-24  left-54'>
             <h1 className='text-6xl 2xl:text-7xl text-blue-600 font-bold'>Get to know </h1>
             <h1 className='text-6xl 2xl:text-7xl text-gray-200 font-bold' >about me </h1>
             {/* <MoveRightIcon/> */}
@@ -19,11 +19,11 @@ const Aboutme2 = () => {
                   <div className='absolute bg-blue-800 top-0 left-0 w-40 h-40 rounded-full blur-[90px]'></div>
 
 
-  <div className=" rounded-2xl md:pl-32  xl:p-0   lg:w-1/2 xl:w-1/3 group hover:border-gray-600/50 transition-all duration-500">
+  <div className=" rounded-2xl md:pl-32  xl:p-0   lg:w-1/2 xl:w-1/3  group hover:border-gray-600/50 transition-all duration-500">
             
             <div className=" z-10">
 
-              <p className='text-sm md:text-lg 2xl:text-2xl text-center font-'>
+              <p className='text-sm md:text-lg 2xl:text-2xl  text-center font-'>
                 I strive to create innovative solutions that combine aesthetics with functionality. My <span className='text-blue-400'>passion</span> for 
                 coding and problem-solving drives me to continuously improve and stay up-to-date with the latest trends in web development.
                  I believe in the <span className='text-blue-400'>power of collaboration</span> and 

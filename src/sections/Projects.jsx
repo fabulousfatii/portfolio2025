@@ -13,7 +13,7 @@ function Projects() {
       </h1>
       
       {/* Project Cards Container */}
-      <div className="flex flex-wrap justify-center gap-8 max-w-4xl">
+      <div className="flex flex-wrap justify-center gap-8 ">
         {/* Project Card 1 */}
               <Card icon={ShoppingCart} image={"/assets/chat.png"} link={"https://chatapp-client-zeta.vercel.app/"} title={"chat website"} description={"A full-stack project "} />
 

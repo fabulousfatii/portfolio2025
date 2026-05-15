@@ -15,15 +15,15 @@ function Projects() {
       {/* Project Cards Container */}
       <div className="flex flex-wrap justify-center gap-8 max-w-4xl">
         {/* Project Card 1 */}
-              <Card icon={ShoppingCart} image={"src/assets/chat.png"} navigate={"/ecommerce-project"} title={"chat website"} description={"A full-stack project "} />
+              <Card icon={ShoppingCart} image={"/assets/chat.png"} link={"https://chatapp-client-zeta.vercel.app/"} title={"chat website"} description={"A full-stack project "} />
 
         
         {/* Project Card 2 */}
-         <Card icon={Database} image={"src/assets/crm.png"} navigate={"/crm-project"} title={"Employee managment website"} description={"A full-stack project "} />
+         <Card icon={Database} image={"/assets/crm.png"} link={"https://crm-client-delta.vercel.app/"} title={"Employee managment website"} description={"A full-stack project "} />
 
         
         {/* Project Card 3 */}
-       <Card icon={File} image={"src/assets/pdf-summary.png"} navigate={"/pdf-project"} title={"PDF Summary website"} description={"A full-stack project "} />
+       <Card icon={File} image={"/assets/pdf-summary.png"} link={"https://pdf-summary-inky.vercel.app/"} title={"PDF Summary website"} description={"A full-stack project "} />
 
        </div>
 

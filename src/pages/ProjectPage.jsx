@@ -7,19 +7,19 @@ const projects = [
   {
     title: "CRM-employee website",
     description: "A CRM project that focuses on employee management. Allowing both admin and managers to manage their employees efficiently. Employee panel for employees to keep updated all the time with their progress",
-    image:"src/assets/crm.png",
+    image:"/assets/crm.png",
     link:"https://crm-client-delta.vercel.app/"
   },
   {
     title: "Chat website",
     description:  " A MERN stack chat project that focuses on real-time messaging, user authentication, and a sleek UI",
-    image:"src/assets/chat.png",
+    image:"/assets/chat.png",
     link:"https://chatapp-client-zeta.vercel.app/"
   },
   {
     title: "PDF-summary website",
     description:  " A nextjs project that focuses on summarizing PDF files using langchain and openai API, allowing users to upload their PDF files and get a concise summary of the content.",
-    image:"src/assets/pdf-summary.png",
+    image:"/assets/pdf-summary.png",
     link:"https://pdf-summary-inky.vercel.app/"
   },
 

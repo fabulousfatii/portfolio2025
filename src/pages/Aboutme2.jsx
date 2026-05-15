@@ -4,7 +4,7 @@ const Aboutme2 = () => {
   return (
     <>
     <div id="section2" className='  relative pb-32 ' >
-        <div className='sticky lg:pl-32 xl:pl-86 2xl:pl-[15%] hidden lg:block top-64 mt-24  left-54'>
+        <div className='sticky lg:pl-32 xl:pl-72 2xl:pl-[15%] hidden lg:block top-64 mt-24  left-54'>
             <h1 className='text-6xl 2xl:text-7xl text-blue-600 font-bold'>Get to know </h1>
             <h1 className='text-6xl 2xl:text-7xl text-gray-200 font-bold' >about me </h1>
             {/* <MoveRightIcon/> */}
